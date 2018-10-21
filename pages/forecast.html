@@ -6,7 +6,7 @@
 <p>The 5-day forecast data for {{ city }} at an interval of every 3 hours from now is being displayed.</p>
 <hr />
 <div ng-repeat="w in weatherResult.list">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12 col-sm-6">
             <weather-report weather-day="w" convert-to-standard="convertToCelcius(Temp)" convert-to-date="convertToDate(dt)" date-format="MMMM d,yyyy 'at' h:mma"></weather-report>
         </div>
 </div>
