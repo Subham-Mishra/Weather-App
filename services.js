@@ -1,6 +1,6 @@
 // SERVICES
 weatherApp.service('cityService', function() {
    
-    this.city = "Bhubaneshwar";
+    this.city = "Bhubaneshwar, IN";
     
 });
